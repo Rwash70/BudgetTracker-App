@@ -1,0 +1,39 @@
+{
+  "name": "budgettracker-app",
+  "version": "1.0.0",
+  "description": "A simple and responsive React app for tracking income and expenses with real-time updates and a dynamic pie chart.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rwash70/BudgetTracker-App.git"
+  },
+  "keywords": [
+    "budget",
+    "react",
+    "tracker",
+    "income",
+    "expenses",
+    "finance"
+  ],
+  "author": "Regina Washington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rwash70/BudgetTracker-App/issues"
+  },
+  "homepage": "https://github.com/Rwash70/BudgetTracker-App#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.9.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
