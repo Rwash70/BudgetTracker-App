@@ -97,7 +97,7 @@ function App() {
           <option value='expense'>Expense</option>
         </select>
         <button type='submit' className='add-btn'>
-          💰 Add Transaction
+          Add Transaction
         </button>
       </form>
 
@@ -111,7 +111,7 @@ function App() {
             🧹 Clear All
           </button>
           <button type='button' className='export-btn' onClick={exportToCSV}>
-            📄 Export to CSV
+            Export to CSV
           </button>
         </>
       )}
@@ -121,11 +121,11 @@ function App() {
         className='theme-toggle-btn'
         onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
       >
-        🌓 Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
+        Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
       </button>
 
       {showNotification && (
-        <div className='notification'>✅ Transaction Added!</div>
+        <div className='notification'> Transaction Added!</div>
       )}
 
       <ul id='transaction-list'>

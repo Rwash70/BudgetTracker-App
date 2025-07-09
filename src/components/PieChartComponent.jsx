@@ -18,8 +18,18 @@ const PieChartComponent = ({ income, expenses }) => {
   ];
 
   return (
-    <div style={{ width: '100%', height: 250, marginTop: '20px' }}>
-      <ResponsiveContainer>
+    <div
+      style={{
+        position: 'relative',
+        cursor: 'default',
+        width: '113%',
+        height: '100%',
+        maxHeight: '250px',
+        maxWidth: '450px',
+        margin: '0 auto',
+      }}
+    >
+      <ResponsiveContainer width='100%' height='100%'>
         <PieChart>
           <Pie
             data={data}
