@@ -27,13 +27,24 @@
   "bugs": {
     "url": "https://github.com/Rwash70/BudgetTracker-App/issues"
   },
-  "homepage": "https://github.com/Rwash70/BudgetTracker-App#readme",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "recharts": "^2.9.0"
+    "recharts": "^2.15.4"
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
