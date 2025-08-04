@@ -21,7 +21,7 @@ A responsive and user-friendly **React Budget Tracker** that helps users manage 
 
 Live Demo:\*\*[Click here to view the Budget Tracker] (https://budget-tracker2025.netlify.app)
 
-![App Screenshot](./public/budgetbg-image.png)
+![App Screenshot](./assets/budget-tracker-screenshot.png)
 
 ---
 
